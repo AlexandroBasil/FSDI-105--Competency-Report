@@ -1,0 +1,189 @@
+body {
+    background-color: #fbf7f5d0;
+    margin: 0;
+}
+
+header {
+    color:white;
+    background-color: rgb(7, 177, 120);
+    margin: 0 0 10px 0;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header h1 {
+    text-align: center;
+}
+
+.capture-form {
+    border: 1px solid #cfcfcf;
+    box-shadow: -1px 1px 3px 0px ;
+    width: 340px;
+    padding: 0 0 1rem 0;
+    margin: 1rem;
+    border-radius: 8px;
+    background-color: #fafafa;
+}
+.capture-form h3 {
+    text-align: center;
+    margin: 0.75rem 0;
+}
+
+
+.control {
+    padding: 5px 10px
+}
+
+.control label {
+    display: inline-block;
+    width: 110px;
+    text-align: right;
+}
+
+.control input, 
+.control select {
+    display: inline-block;
+    width: 150px;
+    padding: 4px 7px;
+    margin-left: 5px;
+}
+
+.control select {
+    width: 167px;
+}
+
+#btnSave {
+    display: inline-block;
+    padding: 0.7em 1.4em;
+    margin-left: 120px;
+    border-radius: 0.15em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: white;
+    background-color: rgb(7, 137, 177);;
+    box-shadow: inset 0 -0.6em 0 -0.35em black;
+    text-align: center;
+    position: relative;
+}
+#btnSave:hover {
+    cursor: pointer;
+}
+
+.password-error {
+    margin: 10px 20px;
+}
+
+.alert-error {
+    border: 1px solid #ee9da5;
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px 15px;
+}
+
+.hide {
+    display: none;
+}
+
+/* STYLES FOR LIST PAGE */
+.users-display {
+    margin: 1rem;
+}
+
+.tbl-users {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 4px;
+    border-spacing: 0;
+}
+
+.tbl-users thead{
+    background-color: coral;
+    color: white;
+    font-size: 16px;
+}
+
+.tbl-users thead tr th,
+.tbl-users tbody tr td {
+    padding: 5px;
+}
+
+.tbl-users tbody tr:nth-child(odd) {
+    background-color: lightgray;
+}
+
+.tbl-users tbody tr:hover{
+    background-color: rgba(240, 128, 128, 0.856);
+}
+
+#btnClear {
+    margin-bottom: .5rem;
+    display: inline-block;
+    padding: 0.7em 1.4em;
+    border-radius: 0.15em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: white;
+    background-color: rgb(7, 137, 177);;
+    box-shadow: inset 0 -0.6em 0 -0.35em black;
+    text-align: center;
+    position: relative;
+}
+
+#btnClear:hover {
+    cursor: pointer;
+}
+
+
+/* STYLES FOR LOGIN PAGE*/
+
+.login-container,
+.accessed-container {
+    width: 400px;
+    padding: 30px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(72, 105, 91, 0.438);
+    border: 1px solid #b1b1b1;
+    border-radius: 6px;
+    text-align: center;
+}
+.login-container p {
+    font-weight: 600;
+}
+
+.login-container .control {
+    display: block;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3px 5px;
+    border: none;
+}
+
+.login-error {
+    margin: .5rem;
+}
+
+#btnLogin,
+#btnLogOut {
+    margin-bottom: .5rem;
+    display: inline-block;
+    padding: 0.7em 1.4em;
+    border-radius: 0.15em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: white;
+    background-color: rgb(7, 137, 177);
+    text-align: center;
+    position: relative;  
+}

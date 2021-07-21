@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="Styles/menu.css">
+    <link rel="stylesheet" href="Styles/app.css">
+
+    <title>Login</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="menu-items">
+                <li class="active">
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="register.html">Register</a>
+                </li>
+                <li>
+                    <a id="uList" class="hide" href="users.html">Users</a>
+                </li>
+            </ul>
+            <div class="menu-info">
+                <label></label>
+            </div>
+        </nav>
+
+        <h1>Login into our amazing system</h1>
+    </header>
+    
+    <main>
+        <div id="needLogin" class="login-container">
+            <h3>WELCOME USER</h3>
+            <p>Please Login</p>
+
+            <div id="alertError" class="login-error alert-error hide">Invalid Credentials</div>
+
+            <input id="txtEmail" type="text" class="control" placeholder="email">
+            <input id="txtPassword" type="password" class="control" placeholder="password">
+
+            <div>
+                <button id="btnLogin" class="btn-dark">Log In</button>
+            </div>
+        </div>
+
+        <div id="loggedIn" class="accessed-container hide">
+            <h5 id="hEmail"></h5>
+            <h5 id="hName"></h5>
+
+            <div>
+                <button id="btnLogOut" class="btn-dark">Log Out</button>
+            </div>
+        </div>
+    </main>
+    
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- <script src="test.js"></script> -->
+    <script src="Scripts/storageManager.js"></script>
+    <script src="Scripts/menu.js"></script>
+    <script src="Scripts/register.js"></script>
+    <script src="Scripts/login.js"></script>
+</body>
+</html>
